@@ -1,0 +1,84 @@
+.dashboard-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .dashboard-box {
+    width: 90%;
+    max-width: 1200px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .dashboard-box h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .overview {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .overview-item {
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .overview-item h3 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    color: #444;
+  }
+  
+  .overview-item p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+
+  .actions-box {
+    margin: 20px auto 0;
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 80%;
+  }
+  
+  .actions-box h3 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .actions-box ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .actions-box li {
+    margin: 10px 0;
+  }
+  
+  .actions-box a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 1.2rem;
+  }
+  
+  .actions-box a:hover {
+    text-decoration: underline;
+  }
+  
